@@ -61,12 +61,14 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+// course.courseInstructor  // this is normal methode to acces the object
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor,price,coursename} = course // this is destructuring the object 
 
 // console.log(courseInstructor);
 console.log(instructor);
+console.log(price);
+console.log(coursename);
 
 // {
 //     "name": "hitesh",

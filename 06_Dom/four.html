@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom element</title>
+</head>
+<body>
+    <ul class="language">
+        <li>javaScript</li>
+
+    </ul>
+</body>
+<script>
+function addElement(langName){
+   const li =  document.createElement('li');
+    li.innerHTML = `${langName}`
+    document.querySelector('.language').appendChild(li)
+
+}
+// addElement("python")
+// addElement("ruby")
+
+
+function addOptilangauage(langName){
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(langName));
+    document.querySelector('.language').appendChild(li)
+}
+addOptilangauage("java")
+</script>
+</html>

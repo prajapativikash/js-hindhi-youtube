@@ -1,0 +1,36 @@
+.conatiner{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input{
+    border-radius: 7px;
+    border: none;
+    height:30px;
+    margin: 20px;
+    
+  
+}
+#result{
+height: 50px;
+/* background-color: bisque; */
+font-size: x-large;
+}
+#btn{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 7px;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    
+
+}

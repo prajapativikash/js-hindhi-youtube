@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#clock{
+    height: 70px;
+    width: 150px;
+    background-color:black;
+}

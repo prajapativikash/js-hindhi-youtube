@@ -1,0 +1,30 @@
+
+.project{
+   background-color: black;
+   height: 100vh;
+   font-size: 1.6rem;
+   color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    border-color: brown;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.color{
+   
+  /* background-color: bisque; */
+  color: bisque;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
